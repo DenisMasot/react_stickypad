@@ -1,0 +1,236 @@
+@font-face {
+    font-family: "Book";
+    src: url("../fonts/NeutraText-BookAlt.otf");
+}
+@font-face {
+    font-family: "Demi";
+    src: url("../fonts/NeutraText-Demi.otf");
+}
+@font-face {
+    font-family: "Demi SC";
+    src: url("../fonts/NeutraText-DemiSC.otf");
+}
+body {
+	width: 793px;
+	height: 1122px;
+	padding: 20px 28px;
+	border-top: 3px solid #0055A4;
+	margin: 0;
+	font: 10px "Book", sans-serif;
+	position: relative;
+    background: #yellow;
+}
+.top-container {
+	height: 320px;
+}
+.top-container .left-part, .top-container .right-part {
+	display: inline-block;
+	float: left;
+}
+.top-container .left-part {
+	width: 483px;
+}
+.left-part img{
+    max-width: 539px;
+    min-width: 100%;
+}
+.top-container .right-part {
+	width: 310px;
+}
+.top-container .left-part p {
+	padding-left: 40px;
+	margin-top: 0;
+	line-height: 12px;
+}
+.date-bloc {
+	display: block;
+	float: left;
+	width: 100%;
+	margin-bottom: 100px;
+}
+.date-bloc table {
+	width: 148px;
+	float: right;
+	border-collapse: collapse;
+}
+.date-bloc table td {
+	border-bottom: 1px solid #000;
+	padding-left: 10px;
+	padding-top: 0;
+	padding-bottom: 0;
+	height: 20px;
+	line-height: 20px;
+	vertical-align: middle;
+}
+.date-bloc table td.bold {
+	font: 12px "Demi SC", sans-serif;
+	text-transform: uppercase;
+	width: 60px;
+	padding: 0;
+	padding-left: 10px;
+	height: 20px;
+	line-height: 20px;
+}
+.date-bloc table tr:first-child td {
+	border-top: 1px solid #000;
+}
+.date-bloc table tr td:last-child {
+	border-left: 1px solid #000;
+}
+.right-part .user-infos {
+	width: 130px;
+	display: block;
+	float: left;
+}
+.right-part .user-infos .title {
+	text-align: center;
+	font: 12px "Demi SC", sans-serif;
+	text-transform: uppercase;
+	line-height: 22px;
+	padding: 0;
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+}
+.right-part .user-infos p {
+	line-height: 14px;
+}
+.right-part .user-infos .bold {
+	font: 10px "Demi SC", sans-serif;
+}
+.table-content {
+	height: 300px;
+}
+.table-content table {
+	width: 100%;
+	border-collapse: collapse;
+}
+.table-content table tr {
+	height: 21px;
+}
+.table-content th {
+	text-align: center;
+	text-transform: uppercase;
+	font: 9px "Demi SC", sans-serif;
+	height: 21px;
+	vertical-align: middle;
+}
+.table-content th:nth-child(-n+3) {
+	font-size: 10px;
+}
+.table-content th:first-child {
+	text-align: left;
+	width: 150px;
+	padding-left: 15px;
+}
+.table-content tfoot td {
+	text-align: right;
+	font: 10px "Demi SC", sans-serif;
+	text-transform: uppercase;
+}
+.table-content tfoot td.text {
+	font-family: "Book", sans-serif;
+	text-transform: none;
+}
+.table-content tfoot tr.bordered td:nth-child(2) {
+	border: 1px solid #201D1B;
+	border-right: none;
+}
+.table-content tfoot tr.bordered td:nth-child(3) {
+	border: 1px solid #201D1B;
+	border-left: none;
+}
+.table-content thead tr {
+	border: 1px solid #201D1B;
+}
+.table-content tbody tr {
+	border-bottom: 1px solid #efefef;
+}
+.table-content tbody tr:last-child {
+	border-bottom: none;
+}
+.table-content tbody tr:last-child {
+	border-bottom: 1px solid #201D1B;
+}
+.infos-paiement .left-part, .infos-paiement .right-part {
+	display: inline-block;
+	float: left;
+}
+.infos-paiement .left-part {
+	width: 353px;
+}
+.infos-paiement .right-part {
+	width: 186px;
+}
+.infos-paiement .reglement p {
+	font: 10px "Demi SC", sans-serif;
+	text-transform: uppercase;
+	margin-top: 0;
+	margin-bottom: 30px;
+}
+.infos-paiement .reglement p .normal {
+	font-family: "Book", sans-serif;
+	text-transform: none;
+}
+.infos-paiement .bank .title {	border-top: 1px solid;
+	border-bottom: 1px solid;
+	width: 140px;
+	text-align: center;
+	font: 10px "Demi SC", sans-serif;
+	text-transform: uppercase;
+	line-height: 16px;
+}
+.infos-paiement .bank p {
+	text-transform: uppercase;
+}
+.infos-paiement .bank .bold {
+	font: 10px "Demi SC", sans-serif;
+}
+.infos-paiement .right-part .title {
+	width: 84px;
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+	text-align: center;
+	font: 10px "Demi SC", sans-serif;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+	line-height: 16px;
+}
+.infos-paiement .right-part .date {
+	font: 10px "Demi SC", sans-serif;
+	text-transform: uppercase;
+}
+.bottom {
+	position: absolute;
+	bottom: 10px;
+}
+.bottom > div {
+	display: inline-block;
+	float: left;
+	height: 18px;
+	text-align: center;
+}
+.bottom .logo {
+	width: 141px;
+	border-right: 1px solid;
+	text-align: center;
+	font: 8px "Demi", sans-serif;
+	color: #0055A4;
+}
+.bottom .logo img {
+	max-height: 9px;
+	max-width: 100px;
+}
+.bottom .rcs {
+	width: 256px;
+	border-right: 1px solid;
+}
+.bottom .contact {
+	width: 141px;
+}
+.bottom .rcs .text, .bottom .contact .text {
+	display: inline-block;
+	float: none;
+	margin: 0 auto;
+	text-align: left;
+	font: 8px "Book", sans-serif;
+}

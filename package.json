@@ -1,0 +1,23 @@
+{
+    "name": "Stickypad",
+    "version": "1.0.0",
+    "description": "Simple note list app",
+    "main": "index.js",
+    "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Denis Masot",
+    "license": "ISC",
+    "devDependencies":{
+        "browserify":"*",
+        "flux": "*",
+        "gulp": "*",
+        "reactify": "*",
+        "vinyl-source-stream": "*",
+        "object-assign": "*"
+    },
+    "dependencies":{
+        "react":"^0.14.7",
+        "react-dom":"^0.14.7"
+    }
+}
